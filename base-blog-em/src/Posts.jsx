@@ -26,7 +26,7 @@ export function Posts() {
       <h3>Oops, something went wrong</h3>
       <p>{error.toString()}</p>
     </>
-)
+  )
 
   if (!data) return <div />;
 
